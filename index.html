@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wheather-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getData()">
+    <div class="box">
+        <input type="text" onchange="getData()" id="search" value="mumbai">
+        <div>
+            <h1 id="temp">38<sup>o</sup></h1>
+            <p style="text-align: center;font-size: 30px;color: white;">Clecius</p>
+            <br>
+            <p class="data">Wind speed :-<span id="ws">20</span></p>
+            <br>
+            <p class="data">Humidity :-<span id="hmdty">21</span></p>
+            <br>
+        </div>
+        <div style="display: flex;justify-content: center;">
+            <img width="150px" src="sun-img.jpeg" alt="">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
